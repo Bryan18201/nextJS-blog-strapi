@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/PageHeader.tsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1697643955927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1697643955927,
+            "name": "Commit-0",
+            "content": "interface Props {\r\n  text: string;\r\n}\r\n\r\nconst PageHeader = ({ text }: Props) => {\r\n  return (\r\n    <h1 className=\"text-5xl font-extrabold dark:text-white text-center\">\r\n      {text}\r\n    </h1>\r\n  );\r\n};\r\nexport default PageHeader;"
+        }
+    ]
+}

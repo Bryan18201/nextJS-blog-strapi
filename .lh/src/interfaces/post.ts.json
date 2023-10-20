@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/interfaces/post.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1697643944778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1697643944778,
+            "name": "Commit-0",
+            "content": "export interface Post {\r\n  id: number;\r\n  attributes: Attributes2;\r\n}\r\n\r\ninterface Attributes2 {\r\n  title: string;\r\n  description: string;\r\n  body: string;\r\n  slug: string;\r\n  createdAt: string;\r\n  updatedAt: string;\r\n  publishedAt: string;\r\n  image: Image;\r\n}\r\n\r\ninterface Image {\r\n  data: Data;\r\n}\r\n\r\ninterface Data {\r\n  id: number;\r\n  attributes: Attributes;\r\n}\r\n\r\ninterface Attributes {\r\n  name: string;\r\n  alternativeText?: any;\r\n  caption?: any;\r\n  width: number;\r\n  height: number;\r\n  formats: Formats;\r\n  hash: string;\r\n  ext: string;\r\n  mime: string;\r\n  size: number;\r\n  url: string;\r\n  previewUrl?: any;\r\n  provider: string;\r\n  provider_metadata: Providermetadata;\r\n  createdAt: string;\r\n  updatedAt: string;\r\n}\r\n\r\ninterface Formats {\r\n  large: Large;\r\n  small: Large;\r\n  medium: Large;\r\n  thumbnail: Large;\r\n}\r\n\r\ninterface Large {\r\n  ext: string;\r\n  url: string;\r\n  hash: string;\r\n  mime: string;\r\n  name: string;\r\n  path?: any;\r\n  size: number;\r\n  width: number;\r\n  height: number;\r\n  provider_metadata: Providermetadata;\r\n}\r\n\r\ninterface Providermetadata {\r\n  public_id: string;\r\n  resource_type: string;\r\n}"
+        }
+    ]
+}
